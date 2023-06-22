@@ -59,17 +59,18 @@ header img{
   font-size:12px;
   text-align: center;
 }
-.link{
-  display: inline-block;
-  padding:13px 35px;
-  text-decoration: none;
-  border:1px solid #F5F5F5;
-}
 .link:hover{
   opacity:0.8;
 }
-.fashion-title, .fashion-text, .fashion-link{
+.fashion-title, .fashion-text{
   color:#F5F5F5;
+}
+.fashion-link{
+  display: inline-block;
+  padding:13px 35px;
+  text-decoration: none;
+  color:#fff;
+  background-color:#70707080;
 }
 /* gallery */
 #gallery{
@@ -102,8 +103,10 @@ header img{
 .box .link{
   margin-top:30px;
   border:1px solid #24292E;
-  text-decoration:none;
+  text-decoration: none;
   color:#24292E;
+  display: inline-block;
+  padding:13px 35px;
 }
 /* ----------info----------- */
 #info{
@@ -126,5 +129,3 @@ footer{
   text-align: center;
   margin:30px auto 25px auto;
 }
-/* -----------------------Responsive---------------- */
-@media screen and(max-)
