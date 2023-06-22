@@ -1,0 +1,128 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  border:none ;
+  outline:none ;
+}
+html{
+  font-size:100%;
+  color:#24292E;
+}
+body{
+  max-width: 1200px;
+  margin:0 auto;
+}
+.content{
+  margin:0 20%;
+}
+/* header */
+header img{
+  width:100%;
+  height:100%;
+}
+/* news */
+#news{
+  padding:80px 0px;
+}
+.content-title{
+  font-family:Arial;
+  font-weight:bold;
+  font-size:24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.content-text{
+  font-family: "メイリオ";
+  font-size:14px;
+  margin-bottom:30px;
+  text-align: center;
+}
+#news-box{
+  display: flex;
+  justify-content: space-between;
+}
+#news-box img{
+  aspect-ratio: 1/1;
+  width: 49%;
+  object-fit: cover;
+}
+/* fashion */
+#fashion{
+  background-image: url("../images/mid-image.jpg");
+  padding-top: 60px;
+  text-align: center;
+  height:520px;
+}
+.text-sm{
+  font-family: "メイリオ";
+  font-size:12px;
+  text-align: center;
+}
+.link{
+  display: inline-block;
+  padding:13px 35px;
+  text-decoration: none;
+  border:1px solid #F5F5F5;
+}
+.link:hover{
+  opacity:0.8;
+}
+.fashion-title, .fashion-text, .fashion-link{
+  color:#F5F5F5;
+}
+/* gallery */
+#gallery{
+  padding:60px 0;
+  margin-bottom:60px;
+}
+.box{
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.box:last-child{
+  margin-bottom: 0;
+}
+.box img{
+  aspect-ratio: 1/1;
+  width: 49%;
+  object-fit: cover;
+}
+.box div{
+  width:49%;
+  text-align: center;
+}
+.box .content-title{
+  margin-bottom:40px;
+}
+.box .content-text{
+  margin-bottom: 30px;
+}
+.box .link{
+  margin-top:30px;
+  border:1px solid #24292E;
+}
+/* ----------info----------- */
+#info{
+  width:100%;
+  background-color:#24292E;
+  color:#fff;
+}
+#info .content{
+  padding:100px 0 123px 0;
+  display: flex;
+  justify-content: space-between;
+}
+#info ol{
+  margin-top: 10px;;
+  list-style-type:"- ";
+  list-style-position: inside;
+}
+/* ---------footer----------- */
+footer{
+  text-align: center;
+  margin:30px auto 25px auto;
+}
+/* -----------------------Responsive---------------- */
+@media screen and(max-)

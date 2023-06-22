@@ -1,0 +1,139 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  border:none ;
+  outline:none ;
+}
+html{
+  font-size:100%;
+  color:#24292E;
+}
+.link{
+  display: inline-block;
+  padding:13px 35px;
+  text-decoration: none;
+  border:1px solid #F5F5F5;
+}
+.link:hover{
+  opacity:0.8;
+}
+.content{
+  margin: 0;
+}
+.content-title{
+  font-family:"Arial";
+  font-weight:bold;
+  font-size:150%;
+  text-align:center;
+}
+.content-text{
+  font-family:"メイリオ";
+  font-size:14px;
+  text-align: center;
+}
+/* --------------------------- */
+header{
+  height:600px;
+  margin-bottom:80px;
+}
+header img{
+  height: 100%;
+  object-fit: cover;
+}
+/* -----news------------ */
+#news{
+  padding:0 19px;
+}
+#news .content-title{
+  margin-bottom:20px;
+}
+#news .content-text{
+  margin-bottom: 40px;
+}
+#news-box{
+  display: block;
+}
+.news-item{
+  aspect-ratio: 1/1;
+  width: 100%;
+  object-fit: cover;
+  background-position: center;
+  position: relative;
+}
+.item1{
+  background-image: url("../images/item1.jpg");
+  margin-bottom:30px;
+}
+.item2{
+  background-image: url("../images/item2.jpg");
+  margin-bottom:80px;
+}
+.item-content{
+  width: 90%;
+  color:#fff;
+  background-color:#70707080;
+  text-align:center;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  padding:15px 33px;
+}
+#news-box .content-text{
+  margin-bottom: 0;
+}
+/* ------fashion--------- */
+#fashion{
+ background-image: url("../images/mid-image.jpg");
+ object-fit: cover;
+ height:520px;
+ padding-top: 150px;
+ padding-left:20px;
+ padding-right:20px;
+}
+.fashion-title{
+  margin-bottom:20px;
+}
+.fashion-text{
+  margin-bottom:30px;
+}
+/* ------gallery------- */
+#gallery{
+  background-color: #F5F5F5;
+  padding:30px 19px;
+  margin-bottom: 0;
+}
+#gallery .box{
+  display: block;
+  margin-bottom: 0;
+}
+.box img{
+  aspect-ratio: 1/1;
+  width:100%;
+  object-fit: cover;
+}
+.box div{
+  width:100%;
+}
+.box .content-title{
+  margin-top: 60px;
+  margin-bottom:40px;
+}
+.box .content-text{
+  margin-bottom:30px;
+}
+.box .content-text:last-child{
+  margin-bottom:0;
+}
+.box a{
+  margin:60px auto;
+}
+/* ----------info------- */
+#info .content{
+  display: block;
+}
+#info img{
+  display: block;
+  margin:30px auto;
+}
